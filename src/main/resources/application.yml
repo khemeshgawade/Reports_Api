@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: Khemesh123
+    password: Gawade123
+    url: jdbc:mysql://localhost:3306/Reports_Details
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
